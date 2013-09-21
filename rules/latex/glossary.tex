@@ -1,0 +1,7 @@
+\renewcommand*{\glspostdescription}{}
+\renewcommand*{\glsclearpage}{\clearpage}
+\newcommand{\keywordentry}[2]{
+\expandafter\newcommand\csname #1\endcsname{\gls{#1}}
+\newglossaryentry{#1}{name=#1,description={#2}}}
+
+\keywordentry{keyword}{This is a key word }
