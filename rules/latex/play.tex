@@ -1,41 +1,67 @@
 \chapter{Playing The Game}
-SPINach is played over a number of rounds, each consisting of four phases. 
-Players keep resolving rounds until the end of summer in year four.
-\\
-The phases of each round are summarised bellow:
-\begin{enumerate}
-	\item \textbf{Job Selection Phase:}\hfill \\
-	Each player simultaneously chooses a job from their hand and plays it face down, job details are described in detail on page ?
-	\item \textbf{Resolve Jobs Phase:} \hfill \\
-	Played job cards are revealed simultaneously and resolved with exception of the `Go To Festival' job action.
-	\item \textbf{Festival Phase:} \hfill \\
-	If this season has a festival and one or more players have chosen the `Go To Festival' job then the Festival phase is resolved, these players are attending the festival. 
-	The festival phase is made up of seven sub-phases that are resolved in order.
-	\begin{enumerate}[I]
-		\item \textbf{Packing Phase:} Each player that is attending the festival must secretly choose how much SPINach and money they will take to the festival.
-		\item \textbf{Arrival Phase:} Each player attending the festival reveals what they are taking to the festival and pays the entrance fee to the bank.
-		\item \textbf{Trade Phase:} Open bidding to exchange SPINach with money.
-		\item \textbf{Workshops Phase:} Each player attending the festival gains skill level based on SPINach consumed while training using tables shown on page ? 
-		\item \textbf{Games Phase:} Each player attending the festival roles the game die, monetary prizes for the two highest rolls. 
-		\item \textbf{Shopping Phase:} Each player attending the festival \textbf{may} purchase equipment from the trading stalls. 
-		\item \textbf{Show Phase:} Each player attending the festival if he/she meets the stage requirements may perform in one show. 
-		Based on player stats a performance level is determined, in each show the performers are ranked by their performance level and awarded a prize based on the their ranking and the stage they performed on. 
-		The prizes are given in table ? on page ?
-		\item \textbf{Pack Up Phase:} Players attending the festival discard any SPINach they brought or purchased at the festival.
+	SPINach is played over a number of rounds (Seasons), each consisting of four phases. 
+	There are eight Seasons in one Year.
+	Players keep resolving rounds until the end of the Late Summer Season in the fourth Year.
+	\\
+	The four phases of each round are summarised below:
+	\begin{enumerate}
+		\item \textbf{Job Selection Phase:}\hfill \\
+			Each player simultaneously chooses an Action card from their hand and places it face down in front of them. Details of each Action card are described on page ?
+		\item \textbf{Resolve Jobs Phase:} \hfill \\
+			Once all of the players have chosen an Action card all of those cards are revealed together. Their actions are then resolved simultaneously with exception of the `Go To Festival' action, which instead triggers the Festival Phase.
+		\item \textbf{Festival Phase:} \hfill \\
+			If the current Season has a Festival and one or more players have chosen the `Go To Festival' Action then the Festival phase is resolved; these players are attending the Festival.
+			The Festival Phase is made up of seven sub-phases that are resolved in the order below:
+		\begin{enumerate}[I]
+			\item \textbf{Packing Phase:} Each player that is attending the Festival must secretly choose how much SPINach and Money they will take to the festival.
+			\item \textbf{Arrival Phase:} Each player attending the Festival reveals how much SPINACH and Money they are taking to the Festival and pays the Entrance Fee to the Bank.
+			\item \textbf{Trade Phase:} Open bidding between players attending the Festival to exchange SPINach with Money. A 30 second time limit is suggested for this phase.
+			\item \textbf{Workshops Phase:} Each player attending the Festival gains Skill level based on how much SPINach they consume during training. This is done using tables shown on the Game Board within the current Season.
+			\item \textbf{Games Phase:} Each player attending the festival roles the game die, monetary prizes for the two highest rolls. 
+			\item \textbf{Shopping Phase:} Each player attending the festival \textbf{may} purchase equipment from the trading stalls. 
+			\item \textbf{Show Phase:} Each player attending the festival if he/she meets the stage requirements may perform in one show. 
+				Based on player stats a performance level is determined, in each show the performers are ranked by their performance level and awarded a prize based on the their ranking and the stage they performed on. 
+				The prizes are given in table ? on page ?
+			\item \textbf{Pack Up Phase:} Players attending the festival discard any SPINach they brought or purchased at the festival.
+		\end{enumerate}
+		\item \textbf{Clean Up Phase:} \hfill \\
+			Players pick up Action cards used on previous rounds only and put them back into their hand, move Season Round marker clockwise around the board by one Season. 
+			If the Season marker moves from Early Winter to Late Winter then the Year Round marker moves up the Year track.
 	\end{enumerate}
-	\item \textbf{Clean Up Phase:} \hfill \\
-	Players pick up action cards used on previous rounds only and put them back into their hand, move season marker clockwise around the board by one month.
-\end{enumerate}
-\section{Sequence of Play}
-\subsection{Phase 1: Job Selection}
-\subsection{Phase 2: Resolve Jobs}
-\subsection{Phase 3: Festival}
-\subsubsection{Festival Phase I: Pack}
-\subsubsection{Festival Phase II: Arrive}
-\subsubsection{Festival Phase III: Trade}
-\subsubsection{Festival Phase III: Workshops}
-\subsubsection{Festival Phase IV: Games}
-\subsubsection{Festival Phase V: Go Shopping}
-\subsubsection{Festival Phase VI: Show}
-\subsubsection{Festival Phase VII: Packup}
-\subsection{Phase 4: Clean Up}
+	\section{Sequence of Play}
+		\subsection{Phase 1: Action Selection}
+			There are a total of 7 Actions that players can choose do perform in a Season.
+			\begin{itemize}
+				\item {Attend Festival}\hfill \\
+					See Phase 3.
+				\item {Busk}\hfill \\
+					Gain ((n + 5) / n) rounded down Coins. n = number of Players performing the Busk Action in the current Season.
+					When n > 1 the player that is Busking with the highest amount of Notoriety also gains ((n + 5) \% n) Coins.
+					If multiple players have equal highest Notoriety then none of them receive the excess Coin(s).
+				\item {Grow SPINach}\hfill \\
+					Pay (0 \textless= m \textless= 3) Coins. Gain (2 + m) SPINach. 
+				\item {Make Video}\hfill \\
+					Gain (S * P / 10) rounded up Notoriety. S = Skill Level, P = Prop Level
+				\item {Shop}\hfill \\
+					Pay 2 * Prop level. Gain 1 Prop level.
+				\item {Train}\hfill \\
+					Gain (n + 3) Skill level. n = number of Players performing the Train Action in the current Season.
+				\item {``Joker''}\hfill \\
+					Repeat previous Action.
+			\end{itemize}
+			Once you have selected your Action Card place it face down in front of you.
+			When all players have placed an Action Card in front of them move to Phase 2.
+		\subsection{Phase 2: Resolve Actions}
+			All players turn over their Action card to reveal their selected Action.
+			``Joker'' Action cards are revealed like all other Action cards before they are placed face down to the side of the current Season.
+			[Add examples]
+		\subsection{Phase 3: Festival}
+			\subsubsection{Festival Phase I: Pack}
+			\subsubsection{Festival Phase II: Arrive}
+			\subsubsection{Festival Phase III: Trade}
+			\subsubsection{Festival Phase III: Workshops}
+			\subsubsection{Festival Phase IV: Games}
+			\subsubsection{Festival Phase V: Shopping}
+			\subsubsection{Festival Phase VI: Show}
+			\subsubsection{Festival Phase VII: Pack Up}
+		\subsection{Phase 4: Clean Up}
